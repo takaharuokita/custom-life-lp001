@@ -1,0 +1,1093 @@
+    @charset "utf-8";
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        list-style: none;
+    }
+    
+    html {
+        overflow-y: scroll;
+    }
+    
+    a,
+    a:-webkit-any-link,
+    a:link {
+        text-decoration: none;
+        color: #333333;
+        cursor: pointer;
+    }
+    
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    form,
+    fieldset,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+        color: #333333;
+    }
+    
+    body {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        font-family: -apple-system, blinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothicM, YuGothic, Meiryo, sans-serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* IE, Edge ?? */
+        scrollbar-width: none;
+        /* Firefox ?? */
+    }
+    
+    body::-webkit-scrollbar {
+        /* Chrome, Safari ?? */
+        display: none;
+    }
+    
+    dt,
+    dd,
+    th,
+    td,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    form,
+    fieldset,
+    input,
+    textarea,
+    blockquote {
+        transform: rotate(-0.05deg);
+        text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.5)
+    }
+    
+    caption,
+    cite,
+    code,
+    dfn,
+    em,
+    strong,
+    th,
+    var {
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    address {
+        font-style: normal;
+        display: inline;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    th {
+        font-weight: normal;
+    }
+    
+    td {
+        vertical-align: top;
+    }
+    
+    caption,
+    th {
+        text-align: left;
+    }
+    
+    q:before,
+    q:after {
+        content: "";
+    }
+    
+    object,
+    embed {
+        vertical-align: top;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        font-weight: normal;
+    }
+    
+    img,
+    abbr,
+    acronym,
+    fieldset {
+        vertical-align: bottom;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    img {
+        border: 0;
+        width: 100%;
+        max-width: max-content;
+        height: auto;
+        display: block;
+    }
+    
+    .add {
+        background: url(../img/add.jpg) no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+        padding-bottom: 66.75%;
+        width: 100%;
+        height: 0;
+        position: relative;
+    }
+    
+    .sun {
+        position: absolute;
+        top: -2%;
+        width: 20%;
+        right: -3%;
+    }
+    
+    .sunI {
+        animation-name: sunI;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    }
+    
+    @keyframes sunI {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .logo {
+        width: 10%;
+        margin: 0 auto;
+        position: absolute;
+        top: 4%;
+        left: 0;
+        right: 0;
+    }
+    
+    .add_txt00 {
+        width: 40%;
+        margin: 0 auto;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+    }
+    
+    .animal01 {
+        width: 10%;
+        margin: 0 auto;
+        position: absolute;
+        top: 25%;
+        left: 69%;
+        right: 0;
+    }
+    
+    .animal02 {
+        width: 10%;
+        margin: 0 auto;
+        position: absolute;
+        top: 25%;
+        left: 90%;
+        right: 0;
+    }
+    
+    .animal03 {
+        width: 12%;
+        margin: 0 auto;
+        position: absolute;
+        top: 44%;
+        left: 82%;
+        right: 0;
+    }
+    
+    .animal04 {
+        width: 12%;
+        margin: 0 auto;
+        position: absolute;
+        top: 64%;
+        left: 75%;
+        right: 0;
+    }
+    
+    .animal05 {
+        width: 10%;
+        margin: 0 auto;
+        position: absolute;
+        top: 80%;
+        left: 92%;
+        right: 0;
+    }
+    
+    .animal06 {
+        width: 8%;
+        margin: 0 auto;
+        position: absolute;
+        top: 87%;
+        left: 75%;
+        right: 0;
+    }
+    
+    .animal07 {
+        width: 12%;
+        margin: 0 auto;
+        position: absolute;
+        top: 42%;
+        left: -81%;
+        right: 0;
+    }
+    
+    .animal08 {
+        width: 10%;
+        margin: 0 auto;
+        position: absolute;
+        top: 60%;
+        left: -88%;
+        right: 0;
+    }
+    
+    .animal09 {
+        width: 15%;
+        margin: 0 auto;
+        position: absolute;
+        top: 65%;
+        left: -70%;
+        right: 0;
+    }
+    
+    .addBtmx {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .animal10 {
+        width: 12%;
+        position: absolute;
+        top: 82%;
+        left: -75%;
+        right: 0;
+        margin: 0 auto;
+    }
+    
+    .animal11 {
+        width: 50%;
+        position: absolute;
+        top: 28%;
+        left: 29%;
+        right: 0;
+        margin: 0 auto;
+    }
+    
+    .animal12 {
+        width: 33%;
+        position: absolute;
+        top: 39%;
+        left: -42%;
+        right: 0%;
+        margin: 0 auto;
+    }
+    
+    .add_txt01 {
+        width: 32%;
+        position: absolute;
+        top: 18%;
+        left: 9%;
+    }
+    
+    .other {
+        background: #fecd44;
+        padding: 5% 0;
+    }
+    
+    .other div {
+        margin: 0 auto;
+        width: 60%;
+        padding: 5% 5%;
+        border: ridge 18px #37e45c;
+        background: white;
+    }
+    
+    .other a {
+        width: 56%;
+        margin: 0 auto;
+        padding: 0% 0 0%;
+        display: block;
+    }
+    
+    .ttl03bg div img,
+    .other div img,
+    .other a img {
+        margin: 0 auto;
+    }
+    
+    .other a:hover {
+        opacity: 0.8;
+    }
+    
+    .sct01 {
+        background: #def1dc;
+    }
+    
+    .ttl01,
+    .ttl02 {
+        background: #47ad40;
+        padding: 5% 2%;
+    }
+    
+    .ttl01 img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .ttl01btm {
+        width: 10%;
+        margin: -2px auto;
+    }
+    
+    .ttl01bg {
+        position: relative;
+        padding: 5% 0;
+    }
+    
+    .ttl01bg img:nth-child(1) {
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .ttl01bg img:nth-child(2) {
+        width: 40%;
+        position: absolute;
+        top: 22%;
+        left: -20%;
+        right: 0;
+        margin: 0 auto;
+    }
+    
+    .ttl02 img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .sct02 {
+        background: #d1ebfa;
+    }
+    
+    .sct02Box {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+    }
+    
+    .ttl02txt01 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 5%;
+        left: -65%;
+        right: 0;
+    }
+    
+    .ttl02txt02 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 5%;
+        left: 60%;
+        right: 0;
+    }
+    
+    .ttl02txt03 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        right: 0;
+    }
+    
+    .ttl02txt04 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 60%;
+        left: -65%;
+        right: 0;
+    }
+    
+    .ttl02txt05 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 60%;
+        left: 65%;
+        right: 0;
+    }
+    
+    .ttl02txt06 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 75%;
+        left: 0%;
+        right: 0;
+    }
+    
+    .ttl02chara01 {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 30%;
+    }
+    
+    .ttl02chara02 {
+        width: 26%;
+        margin: 0 auto;
+        position: absolute;
+        top: 25%;
+        left: -65%;
+        right: 0;
+    }
+    
+    .ttl02chara03 {
+        width: 23%;
+        margin: 0 auto;
+        position: absolute;
+        top: 25%;
+        left: 65%;
+        right: 0;
+    }
+    
+    .ttl02chara04 {
+        width: 30%;
+        margin: 0 auto;
+        position: absolute;
+        top: 52%;
+        left: 0%;
+        right: 0;
+    }
+    
+    .ttl03 {
+        background: #8bd1fa;
+        padding: 2%;
+    }
+    
+    .ttl03 img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .ttl03bg {
+        width: 130%;
+        margin: 0 auto;
+        position: relative;
+        left: -15%;
+    }
+    
+    .ttl03bg div {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    
+    .ttl03txt01 {
+        top: 35%;
+        width: 50%;
+    }
+    
+    .ttl03txt02 {
+        top: 55%;
+        width: 50%;
+    }
+    
+    .ttl03txt03 {
+        left: -8% !important;
+        top: 75%;
+        width: 42%;
+    }
+    
+    .ttl03animal01 {
+        top: 50%;
+        width: 12%;
+        left: -65% !important;
+    }
+    
+    .ttl03animal02 {
+        top: 30%;
+        width: 12%;
+        left: 65% !important;
+    }
+    
+    .ttl03animal03 {
+        top: 80%;
+        width: 17%;
+        left: 55% !important;
+    }
+    
+    .ttl03chara01 {
+        display: inline-block;
+        width: 40%;
+        vertical-align: middle;
+        margin: 10% 0% 3% 15%
+    }
+    
+    .ttl03chara02 {
+        display: inline-block;
+        width: 8%;
+        vertical-align: middle;
+        margin: 15% 0% 0% 2%;
+    }
+    
+    .ttl03chara03 {
+        display: inline-block;
+        width: 20%;
+        vertical-align: bottom;
+        margin: 10% 5% 0% 2%;
+    }
+    
+    .sct04 {
+        background: url(../img/ttl04bg.gif) no-repeat;
+        background-size: contain;
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 74.76%;
+        z-index: 1;
+    }
+    
+    .sct04 div {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    
+    .ttl04txt01 {
+        top: 18%;
+        width: 55%;
+    }
+    
+    .ttl04txt02 {
+        top: 28%;
+        width: 62%;
+    }
+    
+    .ttl04txt03 {
+        top: 38%;
+        width: 33%;
+    }
+    
+    .ttl04txt04 {
+        top: 50%;
+        width: 70%;
+    }
+    
+    .ttl04txt05 {
+        top: 62%;
+        width: 45%;
+    }
+    
+    .ttl04animal01 {
+        top: 65%;
+        width: 20%;
+        left: -75% !important;
+    }
+    
+    .ttl04animal02 {
+        top: 65%;
+        width: 20%;
+        left: 75% !important;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 5px;
+        background: #5a3200;
+    }
+    
+    footer ul {
+        padding-bottom: 20px;
+    }
+    
+    footer li {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    footer li:nth-child(1):after {
+        content: "";
+        border-right: solid 2px #fff;
+        padding-right: 12px;
+        margin-right: 15px;
+    }
+    
+    footer a {
+        font-size: 14px;
+        color: #fff !important;
+    }
+    
+    footer small {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    .featherlight-sample {
+        display: none;
+    }
+    
+    #law {}
+    
+    #law h3 {
+        text-align: center;
+    }
+    
+    #law table {}
+    
+    #law table th {
+        background: #eee;
+        padding: 10px;
+    }
+    
+    #law table td {
+        background: #fff;
+        padding: 10px;
+    }
+    
+    #privacy h3 {
+        text-align: center;
+    }
+    
+    #privacy h4 {
+        font-size: 15px;
+        line-height: 1.25;
+        color: #202231;
+    }
+    
+    #privacy ol {
+        margin: 20px 0 0 40px;
+    }
+    
+    #privacy ol li {
+        list-style: outside decimal;
+        font-size: 13px;
+        line-height: 1.25;
+        margin: 10px 0 0 0;
+    }
+    
+    #privacy p {
+        margin: 20px 0;
+        font-size: 13px;
+        line-height: 1.25;
+    }
+    
+    .featherlight .featherlight-content {
+        width: 80%;
+        max-width: 640px;
+    }
+    
+    @media screen and (max-width:550px) {
+        .add {
+            background: url(../img/add.jpg) no-repeat;
+            background-size: contain;
+            padding-bottom: 100%;
+            width: 140%;
+            left: -20%;
+        }
+        .sun {
+            right: 10%;
+        }
+        .logo {
+            width: 10%;
+            top: 3%;
+        }
+        .add_txt00 {
+            top: 18%;
+            width: 46%;
+        }
+        .add_txt01 {
+            width: 26%;
+            position: absolute;
+            top: 20%;
+            left: 14%;
+        }
+        .animal01 {
+            top: 27%;
+            left: 55%;
+            transform: rotateZ( 6deg);
+        }
+        .animal02 {
+            width: 8%;
+            top: 37%;
+            left: 65%;
+        }
+        .animal03 {
+            top: 52%;
+            left: 59%;
+            transform: rotateY( 180deg);
+        }
+        .animal04 {
+            top: 73%;
+            left: 57%;
+            z-index: 2;
+        }
+        .animal06 {
+            width: 8%;
+            top: 89%;
+            left: 34%;
+        }
+        .animal07 {
+            top: 38%;
+            left: -47%;
+        }
+        .animal08 {
+            top: 52%;
+            left: -58%;
+        }
+        .animal09 {
+            top: 60%;
+            left: -50%;
+        }
+        .animal10 {
+            width: 9%;
+            top: 92%;
+            left: -40%;
+            z-index: 1;
+        }
+        .animal11 {
+            width: 55%;
+            top: 30%;
+            left: 7%;
+        }
+        .animal12 {
+            width: 16%;
+            top: 70%;
+            left: -51%;
+        }
+        .ttl01 img {
+            width: 80%;
+        }
+        .ttl02 img {
+            width: 90%;
+        }
+        .ttl03 img {
+            width: 90%;
+        }
+        .sct02Box {
+            padding-bottom: 200%;
+        }
+        .ttl02chara01 {
+            left: 50%;
+            width: 38%;
+            top: 6%;
+        }
+        .ttl02chara02 {
+            width: 38%;
+            top: 21%;
+            left: -55%;
+        }
+        .ttl02chara03 {
+            width: 32%;
+            top: 40%;
+            left: 50%;
+        }
+        .ttl02chara04 {
+            width: 45%;
+            top: 75%;
+            left: -43%;
+        }
+        .ttl02txt01 {
+            width: 49%;
+            top: 5%;
+            left: -45%;
+        }
+        .ttl02txt02 {
+            width: 50%;
+            top: 22%;
+            left: 48%;
+        }
+        .ttl02txt03 {
+            width: 50%;
+            top: 40%;
+            left: -48%;
+        }
+        .ttl02txt04 {
+            width: 42%;
+            margin: 0 auto;
+            position: absolute;
+            top: 60%;
+            left: -48%;
+            right: 0;
+        }
+        .ttl02txt05 {
+            width: 40%;
+            top: 60%;
+            left: 45%;
+        }
+        .ttl02txt06 {
+            width: 50%;
+            top: 78%;
+            left: 47%;
+        }
+        .ttl03bg {
+            width: 180%;
+            margin: 5% auto;
+            left: -40%;
+        }
+        .ttl03txt01 {
+            top: 30%;
+            width: 45%;
+        }
+        .ttl03txt02 {
+            top: 50%;
+            width: 45%;
+        }
+        .ttl03txt03 {
+            top: 70%;
+            width: 37%;
+        }
+        .ttl03animal01 {
+            top: 56%;
+            width: 10%;
+            left: -47% !important;
+        }
+        .ttl03animal02 {
+            top: 38%;
+            width: 10%;
+            left: 45% !important;
+        }
+        .ttl03animal03 {
+            top: 83%;
+            width: 15%;
+            left: 40% !important;
+        }
+        .ttl03chara01 {
+            width: 50%;
+            margin: 10% 0% 3% 3%;
+        }
+        .ttl03chara02 {
+            display: inline-block;
+            width: 10%;
+            vertical-align: middle;
+            margin: 15% 0% 0% 1%;
+        }
+        .ttl03chara03 {
+            display: inline-block;
+            width: 25%;
+            vertical-align: bottom;
+            margin: 10% 0% 0% 0%;
+        }
+        .sct04 {
+            background: url(../img/ttl04bg.gif) no-repeat;
+            background-size: contain;
+            width: 134%;
+            padding-bottom: 100%;
+            left: -17%;
+        }
+        .ttl04animal01 {
+            top: 75%;
+            width: 20%;
+            left: -55% !important;
+        }
+        .ttl04animal02 {
+            top: 70%;
+            width: 20%;
+            left: 60% !important;
+        }
+        .other a {
+            width: 90%;
+        }
+        footer a {
+            font-size: 10px;
+        }
+        footer ul {
+            padding-bottom: 10px;
+        }
+        footer li:nth-child(1):after {
+            content: "";
+            border-right: solid 1px #fff;
+            padding-right: 8px;
+            margin-right: 5px;
+            height: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        footer small {
+            font-size: 9px;
+            color: #fff;
+        }
+    }
+    
+    .fuwa {
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-name: fuwa;
+    }
+    
+    @keyframes fuwa {
+        0% {
+            transform: translate(0, 0px);
+        }
+        100% {
+            transform: translate(0, -10px);
+        }
+    }
+    
+    .Scale {
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 1.5s;
+        animation-name: Scale;
+        transform: scale(0.85, 0.85);
+    }
+    
+    @keyframes Scale {
+        100% {
+            transform: scale(0.7, 0.7);
+        }
+    }
+    
+    .buru {
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 5s;
+        animation-name: buru;
+    }
+    
+    @keyframes buru {
+        0% {
+            transform: translate(0, 0px);
+        }
+        48% {
+            transform: translate(0, 0px);
+        }
+        50% {
+            transform: translate(0, -10px);
+        }
+        52% {
+            transform: translate(0, 0px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+    }
+    
+    .buru {
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 5s;
+        animation-name: buru;
+    }
+    
+    @keyframes buru {
+        0%,
+        48%,
+        52%,
+        100% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(0, -10px);
+        }
+    }
+    
+    .flash {
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-name: flash;
+    }
+    
+    @keyframes flash {
+        0%,
+        100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    
+    .buru2 {
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 3s;
+        animation-name: buru;
+    }
+    
+    @keyframes buru {
+        0%,
+        48%,
+        52%,
+        100% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(0, -10px);
+        }
+    }
+    
+    .clearfix:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    
+    @media screen and (max-width:480px) {
+        .ttl01bg img:nth-child(1) {
+            width: 116%;
+        }
+    }
