@@ -638,7 +638,7 @@ img {
 }
 
 .sct04 {
-    background: url(../img/ttl04bg.gif) no-repeat;
+    background: url(../img/ttl05bg.png) no-repeat;
     background-size: contain;
     position: relative;
     width: 100%;
@@ -655,22 +655,37 @@ img {
 }
 
 .ttl04txt01 {
-    top: 18%;
-    width: 55%;
+    top: 10%;
+    width: 48%;
+}
+
+.ttl04txt01_a {
+    top: 22%;
+    width: 45%;
 }
 
 .ttl04txt02 {
-    top: 28%;
-    width: 62%;
+    top: 35%;
+    width: 50%;
+}
+
+.ttl04txt02_a {
+    top: 47%;
+    width: 44%;
 }
 
 .ttl04txt03 {
-    top: 38%;
-    width: 33%;
+    top: 60%;
+    width: 50%;
+}
+
+.ttl04txt03_a {
+    top: 72%;
+    width: 44%;
 }
 
 .ttl04txt04 {
-    top: 50%;
+    top: 85%;
     width: 70%;
 }
 
@@ -694,7 +709,7 @@ img {
 footer {
     text-align: center;
     padding: 5px;
-    background: #5a3200;
+    background: #4a4e4b;
 }
 
 footer ul {
