@@ -1109,30 +1109,30 @@ footer small {
         left: -40%;
     }
     .ttl03txt01 {
-        top: 30%;
+        top: 34%;
         width: 45%;
     }
     .ttl03txt02 {
-        top: 50%;
+        top: 53%;
         width: 45%;
     }
     .ttl03txt03 {
-        top: 70%;
+        top: 74%;
         width: 37%;
     }
     .ttl03animal01 {
-        top: 56%;
-        width: 10%;
+        top: 64%;
+        width: 8%;
         left: -47% !important;
     }
     .ttl03animal02 {
-        top: 38%;
+        top: 45%;
         width: 10%;
         left: 45% !important;
     }
     .ttl03animal03 {
-        top: 83%;
-        width: 15%;
+        top: 78%;
+        width: 13%;
         left: 40% !important;
     }
     .ttl03chara01 {
@@ -1156,21 +1156,31 @@ footer small {
         margin-bottom: 20px;
     }
     .sct04 {
-        background: url(../img/ttl04bg.gif) no-repeat;
+        background: url(../img/ttl05bg.png) no-repeat;
         background-size: contain;
-        width: 134%;
-        padding-bottom: 100%;
-        left: -17%;
+        background-position: center;
+        width: 118%;
+        padding-bottom: 85%;
+        left: -10%;
+        margin: 20px 0 50px;
+    }
+    .ttl04txt01,
+    .ttl04txt01_a,
+    .ttl04txt02,
+    .ttl04txt02_a,
+    .ttl04txt03,
+    .ttl04txt03_a {
+        width: 75%;
     }
     .ttl04animal01 {
-        top: 75%;
+        top: 87%;
         width: 20%;
         left: -55% !important;
     }
     .ttl04animal02 {
-        top: 70%;
-        width: 20%;
-        left: 60% !important;
+        top: 83%;
+        width: 16%;
+        left: 55% !important;
     }
     .other a {
         width: 90%;
