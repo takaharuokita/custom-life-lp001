@@ -972,6 +972,28 @@ footer small {
     }
 }
 
+.pekopeko {
+    animation: pekopeko 2s infinite;
+}
+
+@keyframes pekopeko {
+    0% {
+        transform: scale(1.08);
+    }
+    10% {
+        transform: scale(0.95);
+    }
+    20% {
+        transform: scale(1.05);
+    }
+    30% {
+        transform: scale(0.95);
+    }
+    40% {
+        transform: scale(1.0);
+    }
+}
+
 @media screen and (max-width:550px) {
     .add {
         background: url(../img/add.jpg) no-repeat;
