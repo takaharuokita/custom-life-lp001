@@ -742,10 +742,19 @@ footer small {
     display: none;
 }
 
-#law {}
+#law .ts-waku {
+    width: 100%;
+    text-align: right;
+}
+
+#law .ts-waku small {
+    padding-left: 20px;
+    font-size: 75%;
+}
 
 #law h3 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #law table {}
@@ -901,10 +910,13 @@ footer small {
     48%,
     52%,
     100% {
-        transform: translate(0, 0);
+        transform: translate(0, 0px) scale(1.0);
     }
     50% {
-        transform: translate(0, -10px);
+        transform: translate(0, -20px);
+    }
+    30% {
+        transform: scale(0.97);
     }
 }
 
